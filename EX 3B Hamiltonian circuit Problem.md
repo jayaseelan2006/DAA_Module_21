@@ -11,13 +11,13 @@ To write a python program to check whether Hamiltonian path exits in the given g
 5.If found, print "YES"; otherwise, print "NO" after checking all starting points.
 
 
-```
+
 /*
 Program to implement to check whether Hamiltonian path exits in the given graph.
 Developed by: jayaseelan U
 Register Number:  212223220039
 */
-```
+
 ## Program:
 ```
 def isSafe(adj,p,v,pos):
