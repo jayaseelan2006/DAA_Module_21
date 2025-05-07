@@ -6,13 +6,15 @@ To write a python program to implement pattern matching on the given string usin
 
 
 ## Algorithm
+```
 1.Input two strings: the main string s1 and the pattern s2.
 2.Loop through s1 from index 0 to len(s1) - len(s2) to check every possible starting position.
 3.At each index, extract a substring of length len(s2) from s1.
 4.Compare the substring with s2.
-5.If a match is found, return the starting index; otherwise, the function ends without match (implicitly returns None).  
+5.If a match is found, return the starting index; otherwise, the function ends without match (implicitly returns None).
+```  
 
-```
+
 
 Program to implement the Pattern Matching.
 Developed by: Jayaseelan U
