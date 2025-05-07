@@ -5,12 +5,14 @@ To write a python program to find minimum steps to reach to specific cell in min
 
 
 ## Algorithm
+```
 1.Initialize movement directions for the knight (dx and dy).
 2.Use BFS starting from the knight's position and mark it as visited.
 3.Dequeue the current position and check if it's the target position.
 4.For each valid move, check if the cell is within bounds and unvisited, then enqueue it with an 
   incremented distance.
 5.If the target is reached, return the distance; otherwise, return -1 if no path exists.
+```
 
 ## Program:
 ```
