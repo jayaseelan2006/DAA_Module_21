@@ -16,9 +16,10 @@ To write a python program to implement pattern matching on the given string usin
 
 
 
-Program to implement the Pattern Matching.
-Developed by: Jayaseelan U
-Register Number:  212223220039
+
+
+## Developed by: Jayaseelan U
+## Register Number:  212223220039
 
 ## Program:
 ```
