@@ -5,11 +5,13 @@ To write a python program to find the solution of sudoku puzzle using Backtracki
 
 
 ## Algorithm
+```
 1.Scan the board to find an empty cell (with value 0).
 2.For the empty cell, try placing numbers 1 to 9.
 3.Use isPossible() to check if placing a number follows Sudoku rules (row, column, 3×3 box).
 4.Place the number and recursively attempt to solve the rest of the board.
 5.If stuck, backtrack by resetting the cell to 0 and trying the next number.
+```
 
 
 ```
