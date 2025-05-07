@@ -4,12 +4,13 @@
 To write a python program to check whether Hamiltonian path exits in the given graph.
 
 ## Algorithm
+```
 1.Start from each vertex and initialize the path list.
 2.Use isSafe() to check if the next vertex is adjacent and not already visited.
 3.Recursively build the path by trying all vertices one by one.
 4.If the path includes all vertices, a Hamiltonian path exists.
 5.If found, print "YES"; otherwise, print "NO" after checking all starting points.
-
+```
 
 
 /*
